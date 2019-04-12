@@ -47,4 +47,8 @@ $ sudo docker run hello-world
 ```
 $ sudo yum remove docker-ce
 ```
-2. 
+2. 主机上的图像，容器，卷或自定义配置文件不会自动删除。要删除所有图像，容器和卷：
+```
+$ sudo rm -rf /var/lib/docker
+```
+
