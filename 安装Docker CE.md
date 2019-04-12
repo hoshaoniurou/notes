@@ -38,4 +38,13 @@ $ sudo yum install docker-ce docker-ce-cli containerd.io
 ```
 $ sudo systemctl start docker
 ```
-3. 
+3. 通过运行hello-world 映像验证是否正确安装了Docker CE
+```
+$ sudo docker run hello-world
+```
+## 卸载Docker CE
+1. 卸载Docker包：
+```
+$ sudo yum remove docker-ce
+```
+2. 
