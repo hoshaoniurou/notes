@@ -13,3 +13,4 @@ $ sudo yum remove docker \
                   docker-logrotate \
                   docker-engine
 ```
+## 安装Docker CE
