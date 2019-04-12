@@ -52,3 +52,4 @@ $ sudo yum remove docker-ce
 $ sudo rm -rf /var/lib/docker
 ```
 
+## 配置Docker开机启动
