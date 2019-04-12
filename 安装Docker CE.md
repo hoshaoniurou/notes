@@ -53,3 +53,11 @@ $ sudo rm -rf /var/lib/docker
 ```
 
 ## 配置Docker开机启动
+启用：
+
+```
+sudo systemctl enable docker
+```
+要禁用此行为，请disable改用
+```
+$ sudo systemctl disable docker``
