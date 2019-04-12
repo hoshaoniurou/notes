@@ -30,7 +30,12 @@ $ sudo yum-config-manager \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
 ### 安装DOCKER CE
-安装最新版本的Docker CE和containerd，或者转到下一步安装特定版本：
+1. 安装最新版本的Docker CE和containerd，或者转到下一步安装特定版本：
 ```
 $ sudo yum install docker-ce docker-ce-cli containerd.io
 ```
+2. 启动Docker:
+```
+$ sudo systemctl start docker
+```
+3. 
